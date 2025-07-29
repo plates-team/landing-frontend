@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Plates</title>
+    <link rel="icon" href="http://googleusercontent.com/file_content/1" type="image/jpeg">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <script>
+        // Configure Tailwind CSS with the brand color palette
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'brand-bg': '#F9F7F4',
+                        'brand-card': '#F5F3F0',
+                        'brand-coral': '#E8A08A',
+                        'brand-teal': '#82A8A2',
+                        'brand-dark-gray': '#3A3A3A',
+                        'brand-slate-gray': '#6C7A89',
+                    },
+                    fontFamily: {
+                        'poppins': ['Poppins', 'sans-serif']
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #F9F7F4;
+            color: #3A3A3A;
+        }
+        .policy-container h2 {
+            font-size: 1.5rem; /* 24px */
+            font-weight: 600;
+            margin-top: 2rem;
+            margin-bottom: 0.5rem;
+            color: #3A3A3A;
+        }
+        .policy-container p {
+            margin-bottom: 1rem;
+            color: #6C7A89;
+        }
+        .policy-container a {
+            color: #82A8A2;
+            text-decoration: underline;
+        }
+        .policy-container a:hover {
+            color: #E8A08A;
+        }
+    </style>
+</head>
+<body class="bg-brand-bg text-brand-dark-gray">
+    <!-- Header -->
+    <header class="bg-brand-bg/80 backdrop-blur-sm sticky top-0 z-50 border-b border-brand-card">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="index.html" class="flex items-center">
+                <img src="images/logo.png" alt="Logo" class="h-8 w-auto mr-2">
+                <span class="text-xl font-bold text-brand-dark-gray">Plates</span>
+            </a>
+            <a href="index.html" class="font-semibold text-brand-slate-gray hover:text-brand-coral transition">
+                &larr; Back to Home
+            </a>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container mx-auto px-6 py-16">
+        <div class="max-w-4xl mx-auto policy-container">
+            <h1 class="text-4xl md:text-5xl font-extrabold text-brand-dark-gray mb-4">Privacy Policy</h1>
+            <p class="text-brand-slate-gray">Effective Date: July 29, 2025</p>
+            <p>Thank you for using PlatesApp.xyz. Your privacy is important to us. This Privacy Policy explains what information we collect, how we use it, and what choices you have.</p>
+
+            <h2>1. What We Collect</h2>
+            <p>We may collect:</p>
+            <ul>
+                <li><strong>Information you provide:</strong> Such as your email, profile name, and any photos or comments you upload.</li>
+                <li><strong>Technical data:</strong> Your IP address, device type, browser, and how you use the app.</li>
+                <li><strong>Cookies:</strong> Small files to remember your preferences and keep you logged in.</li>
+            </ul>
+
+            <h2>2. How We Use Your Info</h2>
+            <p>We use your data to:</p>
+            <ul>
+                <li>Provide and maintain the service;</li>
+                <li>Let you log in and personalize your experience;</li>
+                <li>Improve the app by understanding how people use it;</li>
+                <li>Contact you with updates or support if needed.</li>
+            </ul>
+
+            <h2>3. Who We Share It With</h2>
+            <ul>
+                <li><strong>Service providers:</strong> Trusted partners who help run the app (like hosting or analytics tools). They only use your data for what's needed and keep it secure.</li>
+                <li><strong>Legal reasons:</strong> If we’re legally required to, or to protect rights and safety.</li>
+                <li><strong>Public posts:</strong> If you choose to make your posts public, anyone may see them.</li>
+            </ul>
+
+            <h2>4. Where We Store Your Info</h2>
+            <p>Your data may be stored on secure servers in different countries. By using Plates, you agree to this.</p>
+
+            <h2>5. Children</h2>
+            <p>The app is not meant for users under 13. If we learn we’ve collected info from a child, we’ll delete it.</p>
+
+            <h2>6. Your Choices</h2>
+            <ul>
+                <li><strong>Change or delete your info:</strong> You can edit or remove your account any time.</li>
+                <li><strong>Email settings:</strong> You can unsubscribe from non-essential emails.</li>
+                <li><strong>Delete your account:</strong> Just email us at <a href="mailto:info@platesapp.xyz">info@platesapp.xyz</a> and we’ll help.</li>
+            </ul>
+
+            <h2>7. Policy Updates</h2>
+            <p>If this policy changes, we’ll update it here. You’ll be notified if the changes are important.</p>
+
+            <h2>8. Contact Us</h2>
+            <p>Got questions? Email us at <a href="mailto:info@platesapp.xyz">info@platesapp.xyz</a>.</p>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-brand-card py-12">
+        <div class="container mx-auto px-6 text-center text-brand-slate-gray text-sm">
+            <p>&copy; 2025 Plates. All rights reserved. A tool for healing, not for diagnosis.</p>
+        </div>
+    </footer>
+</body>
+</html>
