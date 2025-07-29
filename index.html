@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Plates - Emotional Journal & Meal Tracking App</title>
+    <link rel="icon" href="http://googleusercontent.com/file_content/1" type="image/jpeg">
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <script>
@@ -236,12 +237,40 @@
     </section>
 
     <!-- Footer -->
-    <footer class="bg-brand-card py-12">
-        <div class="container mx-auto px-6 text-center">
-            <p class="text-brand-slate-gray">&copy; 2025 Plates. All rights reserved. A tool for healing, not for diagnosis.</p>
-            <div class="mt-4 space-x-6">
-                 <a href="#" class="text-brand-slate-gray hover:text-brand-coral transition">Privacy Policy</a>
-                 <a href="#" class="text-brand-slate-gray hover:text-brand-coral transition">Terms of Service</a>
+    <footer class="bg-brand-card py-16">
+        <div class="container mx-auto px-6">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center md:text-left">
+                <!-- Column 1: Logo and Description -->
+                <div>
+                    <div class="flex items-center justify-center md:justify-start mb-4">
+                        <img src="images/logo.png" alt="Logo" class="h-8 w-auto mr-2">
+                        <span class="text-xl font-bold text-brand-dark-gray">Plates</span>
+                    </div>
+                    <p class="text-brand-slate-gray">A compassionate tool for those healing their relationship with food.</p>
+                </div>
+
+                <!-- Column 2: Links -->
+                <div>
+                    <h3 class="text-lg font-semibold mb-4 text-brand-dark-gray">Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#features" class="text-brand-slate-gray hover:text-brand-coral transition">Features</a></li>
+                        <li><a href="#why" class="text-brand-slate-gray hover:text-brand-coral transition">Why It Works</a></li>
+                        <li><a href="#about" class="text-brand-slate-gray hover:text-brand-coral transition">About Us</a></li>
+                        <li><a href="#" class="text-brand-slate-gray hover:text-brand-coral transition">Privacy Policy</a></li>
+                    </ul>
+                </div>
+
+                <!-- Column 3: Investors -->
+                <div>
+                    <h3 class="text-lg font-semibold mb-4 text-brand-dark-gray">For Partners & Investors</h3>
+                    <p class="text-brand-slate-gray mb-4">Interested in our mission? Learn more about investment opportunities.</p>
+                    <a href="https://drive.google.com/file/d/1u8MHFwvB-saPu1EWKKFuMwgTZCm4hNKw/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="font-semibold text-brand-teal hover:text-brand-coral transition">
+                        View Our Investor Deck &rarr;
+                    </a>
+                </div>
+            </div>
+            <div class="border-t border-gray-200 mt-12 pt-8 text-center text-brand-slate-gray text-sm">
+                <p>&copy; 2025 Plates. All rights reserved. A tool for healing, not for diagnosis.</p>
             </div>
         </div>
     </footer>
